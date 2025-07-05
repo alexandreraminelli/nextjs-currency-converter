@@ -14,7 +14,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={"antialiased dark"}>
+      <body
+        className="antialiased dark h-dvh
+          bg-[url('/images/background.jpg')] bg-cover bg-no-repeat"
+      >
         <Providers>{children}</Providers>
       </body>
     </html>
